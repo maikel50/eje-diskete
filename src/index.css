@@ -16,6 +16,7 @@ body {
   border: 2px solid #000;
   border-radius: 10px;
   display: flex;
+  justify-content: space-between;
 }
 
 .diskette-top-container{
@@ -31,6 +32,7 @@ body {
   width: 150px;
   height: 80px;
   display: flex;
+  justify-content: flex-end;
 }
 
 .metal{
@@ -38,5 +40,40 @@ body {
   width: 120px;
   height: 80px;
   border-radius: 10px;
+  display: flex;
   justify-content: flex-end;
+
+  
+}
+.hole{
+  background: yellow;
+  width: 30px;
+  height: 60px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.diskette-bottom-container{
+  background: #494949;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.leftpad-container{
+  background: red;
+  width: 30px;
+  height: 180px;
+
+}
+.label{
+  background: #bbb;
+  height: 180px;
+  width: 200px;
+}
+.rightpad-container{
+  background: red;
+  width: 30px;
+  height: 180px;
 }
