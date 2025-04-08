@@ -1,4 +1,42 @@
 body {
-  background: #171717;
+  background: #fff;
   color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.diskette {
+  width: 300px;
+  height: 330px;
+  background: #2b2b2b;
+  color: #464545;
+  flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+}
+
+.diskette-top-container{
+  background: #494949;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap{
+  background: #aa2a2a;
+  width: 150px;
+  height: 80px;
+  display: flex;
+}
+
+.metal{
+  background: #bbb;
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  justify-content: flex-end;
 }
